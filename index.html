@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmad — About Me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <div class="sheet">
+
+      <header class="hero">
+        <div class="tag">U0 — IDENTITY</div>
+        <h1>Ahmad</h1>
+        <p class="role">Computer &amp; Communication Engineering, USJ — building software that ships.</p>
+      </header>
+ 
+      <div class="trace" aria-hidden="true">
+        <svg viewBox="0 0 100 24" preserveAspectRatio="none"><path d="M0 12 H38 L44 4 H100" /></svg>
+      </div>
+ 
+      <section class="panel" id="bio">
+        <div class="tag">U1 — BIO</div>
+        <h2>About me</h2>
+        <p>
+          I'm a fifth-year Computer and Communication Engineering student at Université
+          Saint-Joseph de Beyrouth, who enjoys building things and learning how
+          software works under the hood. Lately I've been getting into web
+          development, figuring out how the pieces fit together to make a page
+          actually work.
+        </p>
+        <p>
+          In my free time I like putting together small web projects, trying out
+          new tools, and seeing what I can build with a bit of HTML, CSS, and
+          JavaScript. It's a fun way to turn an idea into something people can
+          actually open in a browser.
+        </p>
+      </section>
+
+      <div class="trace flip" aria-hidden="true">
+        <svg viewBox="0 0 100 24" preserveAspectRatio="none"><path d="M100 12 H62 L56 20 H0" /></svg>
+      </div>
+
+      <section class="panel" id="photo">
+        <div class="tag">U2 — PHOTO</div>
+        <h2>Photo</h2>
+        <figure class="frame">
+          <img src="images/profile.jpg" alt="latest photo of Ahmad" width="360">
+        </figure>
+      </section>
+
+      <div class="trace" aria-hidden="true">
+        <svg viewBox="0 0 100 24" preserveAspectRatio="none"><path d="M0 12 H38 L44 4 H100" /></svg>
+      </div>
+
+      <section class="panel" id="contact">
+        <div class="tag">U3 — CONTACT</div>
+        <h2>Get in touch</h2>
+        <form class="contact-form" novalidate>
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit">Send message</button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+
+      <footer class="foot">
+        <span>Built by Ahmad — USJ, Faculté d'ingénierie.</span>
+      </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+ 
